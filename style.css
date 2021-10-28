@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+ 
+}
+body{
+    background-image: url(bgimage.jpg);
+}
+
+
+.keys{
+    width:95%;
+    position:relative;
+    top:32vh;
+    height:20vh;
+    display:flex;
+    margin:0 auto;
+     /* border : 2px solid red;  */
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.key{
+border: 0.4rem solid rgb(184, 3, 3);
+align-content: center;
+text-align: center;
+background-color:rgba(0, 0,0, 0.47);
+transition: all 0.07s ease;
+}
+kbd{
+    color:white;
+    text-align: center;
+    font-size: 10vh;
+    display: block;
+    width:15vh;
+}
+span{
+    font-size: 5vh;
+    align-items: center;
+    align:center;
+    color:white;
+}
+.playing{
+    transform:scale(1.1);
+    border-color:#ffc600;
+    box-shadow:0 0 1rem #ffc;
+}
